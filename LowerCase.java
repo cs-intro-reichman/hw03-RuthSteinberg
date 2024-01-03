@@ -14,9 +14,9 @@ public class LowerCase {
         String newStr="";
         for(int i=0; i<s.length(); i++)
         {
-            if(s.charAt(i)>65 && s.charAt(i)<90)
+            if((s.charAt(i)>65) && (s.charAt(i)<90))
             {
-                newStr=newStr+(s.charAt(i)+32);
+                newStr=newStr+(char)(s.charAt(i)+32);
             }
             else
             {
