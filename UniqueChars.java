@@ -15,10 +15,13 @@ public class UniqueChars {
         for(int i=0; i<s.length(); i++)
         {
             char schar = s.charAt(i);
-            while(s.indexOf(schar) == i)
+            if((s.indexOf(schar) == i))
             {
                 newstr=newstr+schar;
-                break;
+            }
+            if(schar==32)
+            {
+                newstr=newstr+schar;
             }
         }
         return newstr;
