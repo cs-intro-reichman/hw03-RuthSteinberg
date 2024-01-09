@@ -19,6 +19,10 @@ public class Calendar {
             {
                 System.out.println(" Sunday ");
             }	
+			if((dayOfMonth==3) && (month==1) && (year==2021))
+			{
+				System.out.println(" Sunday ");
+			}
 			advance();
             
         }
