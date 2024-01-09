@@ -95,7 +95,7 @@
         "setup": "javac LowerCase.java",
         "run": "java LowerCase \"AaBbCcDdEe\"",
         "input": "",
-        "output": "aabbccdde",
+        "output": "aabbccddee",
         "comparison": "exact",
         "timeout": 10,
         "points": 1.5
@@ -145,7 +145,7 @@
         "setup": "javac UniqueChars.java",
         "run": "java UniqueChars \"umbrella academy\"",
         "input": "",
-        "output": "umbrela cady",
+        "output": "umbrela cdy",
         "comparison": "exact",
         "timeout": 10,
         "points": 1.5
@@ -185,7 +185,7 @@
         "setup": "javac UniqueChars.java",
         "run": "java UniqueChars pineapple",
         "input": "",
-        "output": "pineapl",
+        "output": "pineal",
         "comparison": "exact",
         "timeout": 10,
         "points": 1.5
@@ -248,7 +248,7 @@
     "output": "2023 is a common year\nMonth 1 has 31 days\nMonth 2 has 28 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
     "comparison": "exact",
     "timeout": 10,
-    "points": 5
+    "points": 0
     },
     {
     "name": "Calendar0 Test for Year 2024 (Leap Year)",
@@ -258,7 +258,7 @@
     "output": "2024 is a leap year\nMonth 1 has 31 days\nMonth 2 has 29 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
     "comparison": "exact",
     "timeout": 10,
-    "points": 5
+    "points": 0
     },
     {
     "name": "Calendar0 Test for Year 2000 (Leap Year)",
@@ -268,7 +268,7 @@
     "output": "2000 is a leap year\nMonth 1 has 31 days\nMonth 2 has 29 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
     "comparison": "exact",
     "timeout": 10,
-    "points": 5
+    "points": 0
     },
     {
     "name": "Calendar1 Test",
@@ -278,7 +278,40 @@
     "output": "During the 20th century, 172 Sundays fell on the first day of the month",
     "comparison": "included",
     "timeout": 15,
-    "points": 15
+    "points": 0
+    },
+    {
+    "name": "Calendar Test",
+    "setup": "javac Calendar.java",
+    "run": "java Calendar 2021",
+    "input": "",
+    "output": "3/1/2021 Sunday",
+    "comparison": "included",
+    "timeout": 15,
+    "points": 10
+    },
+    {
+    "name": "Calendar Test",
+    "setup": "javac Calendar.java",
+    "run": "java Calendar 2024",
+    "input": "",
+    "output": "29/2/2024",
+    "comparison": "included",
+    "timeout": 15,
+    "points": 10
+    },
+    {
+    "name": "Calendar Test",
+    "setup": "javac Calendar.java",
+    "run": "java Calendar 2020",
+    "input": "",
+    "output": "1/3/2020 Sunday",
+    "comparison": "included",
+    "timeout": 15,
+    "points": 10
     }
+    
+    
+
     ]
 }
