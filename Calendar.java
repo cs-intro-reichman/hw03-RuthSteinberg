@@ -15,11 +15,15 @@ public class Calendar {
         {
             debugDaysCounter++;
 			System.out.println(dayOfMonth + "/" + month + "/" + year);	
-            if((dayOfWeek==1) && (dayOfMonth!=3) && (month!=1) && (year!=2021))
+            if(dayOfWeek==1)
             {
 				
                 System.out.println(" Sunday ");
             }	
+			if((dayOfMonth==1) && (month==3) && (year==2021))
+			{
+				
+			}
 			advance();
             
         }
