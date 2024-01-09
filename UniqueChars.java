@@ -22,13 +22,7 @@ public class UniqueChars {
             if((schar==32)&&(s.indexOf(schar) != i))
             {
                 newstr=newstr+schar;
-                s=s.substring(i);
-                i=0;
             }
-            //if((schar==32)&&())
-            //{
-              //  newstr=newstr+schar;
-            //}
         }
         return newstr;
     }
