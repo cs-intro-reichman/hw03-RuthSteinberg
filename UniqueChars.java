@@ -19,7 +19,7 @@ public class UniqueChars {
             {
                 newstr=newstr+schar;
             }
-            if(schar==32)
+            if((schar==32)&&(s.indexOf(schar) != i))
             {
                 newstr=newstr+schar;
             }
