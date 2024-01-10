@@ -18,7 +18,7 @@ public class Calendar {
             if(dayOfWeek==1)
             {
 				
-                System.out.println(" Sunday ");
+                System.out.print(" Sunday ");
             }	
 			if((dayOfMonth==1) && (month==3) && (year==2020))
 			{
