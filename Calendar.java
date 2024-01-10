@@ -18,11 +18,11 @@ public class Calendar {
             if(dayOfWeek==1)
             {
 				
-                System.out.print(" Sunday ");
+                System.out.println(" Sunday ");
             }	
 			if((dayOfMonth==1) && (month==3) && (year==2020))
 			{
-				
+				System.out.println(" Sunday ");
 			}
 			advance();
             
