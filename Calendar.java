@@ -14,12 +14,15 @@ public class Calendar {
         while(year==givenYear)
         {
             debugDaysCounter++;
-			System.out.println(dayOfMonth + "/" + month + "/" + year);	
-            if(dayOfWeek==1)
+			String str = dayOfMonth + "/" + month + "/" + year;
+			if(dayOfWeek==1)
             {
-				
-                System.out.println(" Sunday ");
-            }	
+				str = str+" Sunday";
+                System.out.println(str);
+				dayOfMonth++;
+            }
+			str = dayOfMonth + "/" + month + "/" + year;
+			System.out.println(str);		
 			//if((dayOfMonth==1) && (month==3) && (year==2020))
 			//{
 			//	System.out.println(" Sunday ");
